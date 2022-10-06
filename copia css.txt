@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+body{
+  padding: 0 20px;
 }
 
 /* header */
@@ -38,8 +42,7 @@
 background-color: black;
 } 
 .encabezado .titulo .logo {
-    height: 10px;   
-    width: 10px;    
+    height: 80px;   
 }
 /* main */
 .nosotros{ 
@@ -109,10 +112,14 @@ article{
 
                     /* footer */
               
+.margin-20{
+margin: 0 -20px;
+}
 
 footer {
   background-color: blueviolet;
   padding: 15px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
