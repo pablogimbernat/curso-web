@@ -1,0 +1,33 @@
+footer {
+    background-color: blueviolet;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    .titulo{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+   ul {
+      list-style-type: none;
+      align-items: flex-end; 
+      display: flex;
+      gap: 20px;
+  
+    li{
+      min-width: 50px;
+      text-align: center;
+      padding: 8px; 
+  
+        a { 
+         color: white;
+         text-decoration: none;
+         }
+    }
+    &:hover{
+    background-color: black;
+    }
+}
+}

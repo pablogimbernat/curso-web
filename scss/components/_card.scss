@@ -1,0 +1,29 @@
+.tarjeta{
+    border: 1px solid black;  
+    margin-bottom: 30px;    
+  
+  
+  &__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   &__titulo{
+    display: flex;
+    justify-content: center;
+  }
+  &__text{
+    display: flex;
+    justify-content: center;
+  }
+  &__boton{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;  
+  &:hover{
+    background-color:rgb(221, 84, 169) ;
+    } 
+}
+}

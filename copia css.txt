@@ -111,10 +111,6 @@ article{
   } 
 
                     /* footer */
-              
-.margin-20{
-margin: 0 -20px;
-}
 
 footer {
   background-color: blueviolet;
