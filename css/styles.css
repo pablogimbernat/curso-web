@@ -108,4 +108,25 @@ footer ul:hover {
   margin: 20px auto;
 }
 
+.baner {
+  height: 98vh;
+  background-image: url(../assets/baner.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.baner__titulo {
+  color: white;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.baner__h1 {
+  font-size: 4rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
