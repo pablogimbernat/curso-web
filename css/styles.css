@@ -5,7 +5,7 @@
 }
 
 footer {
-  background-color: blueviolet;
+  background-color: rgb(127, 23, 52);
   padding: 15px;
   display: flex;
   align-items: center;
@@ -61,6 +61,7 @@ footer ul:hover {
   margin: 20px;
   text-align: center;
   margin-bottom: 30px;
+  color: white;
 }
 
 .tarjeta {
@@ -125,8 +126,16 @@ footer ul:hover {
   text-align: center;
 }
 
-.baner__h1 {
+h1 {
   font-size: 4rem;
+}
+
+body {
+  background: rgb(127, 23, 52);
+}
+
+p {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
