@@ -1,4 +1,8 @@
 header{
-    background: rgb(127,23,52); 
+    background: $color-terciario; 
 }
 
+
+a:visited{
+    color:$color-primario;
+}

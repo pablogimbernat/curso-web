@@ -6,7 +6,9 @@
 
 footer {
   background-color: rgb(127, 23, 52);
-  padding: 15px;
+  margin-top: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,6 +42,7 @@ footer ul:hover {
   margin: 15px;
   text-align: center;
   margin-bottom: 30px;
+  color: white;
 }
 .mainTitle__blancos {
   background: rgb(255, 253, 111);
@@ -47,6 +50,7 @@ footer ul:hover {
   margin: 20px;
   text-align: center;
   margin-bottom: 30px;
+  color: black;
 }
 .mainTitle__espumantes {
   background: rgb(241, 237, 99);
@@ -54,6 +58,7 @@ footer ul:hover {
   margin: 20px;
   text-align: center;
   margin-bottom: 30px;
+  color: black;
 }
 .mainTitle__tintos {
   background: rgb(127, 23, 52);
@@ -61,6 +66,66 @@ footer ul:hover {
   margin: 20px;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.encontranos__titulo {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.tarjeta {
+  border: 1px solid black;
+  margin-bottom: 30px;
+  background-color: rgb(127, 23, 52);
+}
+.tarjeta__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjeta__titulo {
+  display: flex;
+  justify-content: center;
+}
+.tarjeta__text {
+  display: flex;
+  justify-content: center;
+}
+.tarjeta__boton {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+.tarjeta__boton:hover {
+  background-color: white;
+}
+
+.encontranos__titulo {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.nosotros {
+  max-width: 1024px;
+  margin: 15px auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+input:focus {
+  border: 2px solid black;
+}
+
+h3 {
   color: white;
 }
 
@@ -88,25 +153,7 @@ footer ul:hover {
   color: black;
 }
 .tarjeta__boton:hover {
-  background-color: rgb(221, 84, 169);
-}
-
-.encontranos__titulo {
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
-.nosotros {
-  max-width: 1024px;
-  margin: 15px auto;
-}
-
-.formulario {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: fit-content;
-  margin: 20px auto;
+  background-color: white;
 }
 
 .baner {
@@ -131,7 +178,7 @@ h1 {
 }
 
 body {
-  background: rgb(127, 23, 52);
+  background: black;
 }
 
 p {
