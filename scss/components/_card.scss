@@ -30,7 +30,39 @@
 }
 
 .tarjeta--blancos{
-  background-color: $color-blancos
+  @extend.tarjeta;
+  background-color: $color-blancos;
+  
+  
 
   
+}
+.contenedor{
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 25px;
+}
+
+.tarjeta-bodegas{
+  width: 33%;
+  margin-top: 50px;
+  @media (max-width: 600px) {
+  
+      width: 300px;
+    }
+  
+
+  background-color: $color-blancos;
+  border: solid 2px black;
+  text-align: center;
+}
+
+%tarjerta{
+  width: 200px;
+  height: 300px; 
+  background-color: $color-blancos;
+  border-radius:16px;
 }
