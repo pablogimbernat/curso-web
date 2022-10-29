@@ -102,6 +102,15 @@ footer ul:hover {
   background-color: white;
 }
 
+.tarjeta--blancos {
+  background: rgb(255, 253, 111);
+  background: linear-gradient(90deg, rgb(255, 253, 111) 0%, rgb(217, 240, 94) 50%, rgb(235, 245, 59) 100%);
+  margin: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+
 .encontranos__titulo {
   display: flex;
   justify-content: center;

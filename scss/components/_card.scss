@@ -1,7 +1,3 @@
-$color-primario:black;
-$color-secundario:white;
-$color-terciario:rgb(127,23,52);
-
 .tarjeta{
     border: 1px solid $color-primario;  
     margin-bottom: 30px;    
@@ -31,4 +27,10 @@ $color-terciario:rgb(127,23,52);
     background-color: $color-secundario;
     } 
 }
+}
+
+.tarjeta--blancos{
+  background-color: $color-blancos
+
+  
 }
