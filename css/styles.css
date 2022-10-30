@@ -100,6 +100,7 @@ footer ul:hover {
 }
 .tarjeta__boton:hover {
   background-color: white;
+  color: black;
 }
 
 .tarjeta--blancos {
@@ -118,8 +119,8 @@ footer ul:hover {
 .tarjeta-bodegas {
   width: 33%;
   margin-top: 50px;
-  background-color: rgb(255, 253, 111);
-  border: solid 2px black;
+  background-color: black;
+  border: solid 2px rgb(255, 253, 111);
   text-align: center;
 }
 @media (max-width: 600px) {
@@ -209,6 +210,13 @@ body {
 
 p {
   color: white;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: s space-around;
+  flex-flow: row wrap;
+  margin: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */

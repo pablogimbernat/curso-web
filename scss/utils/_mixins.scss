@@ -1,0 +1,11 @@
+
+@mixin tarjeta-b($display,$justify,$flex,$margin){
+  display: $display;  
+  justify-content: s$justify;
+  flex-flow: $flex;
+  margin: $margin;
+}
+
+.contenedor{
+  @include tarjeta-b(flex,space-around,row wrap,25px);
+}

@@ -25,6 +25,7 @@
     color: $color-primario;  
   &:hover{
     background-color: $color-secundario;
+    color: $color-primario;
     } 
 }
 }
@@ -55,9 +56,10 @@
     }
   
 
-  background-color: $color-blancos;
-  border: solid 2px black;
+  background-color: $color-primario;
+  border: solid 2px $color-blancos;
   text-align: center;
+ 
 }
 
 %tarjerta{
