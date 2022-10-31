@@ -6,6 +6,11 @@
   margin: $margin;
 }
 
-.contenedor{
-  @include tarjeta-b(flex,space-around,row wrap,25px);
+@mixin mobile-lg {
+  
+  @media (max-width: 567px) {
+  
+      @content  
+    }
+  
 }

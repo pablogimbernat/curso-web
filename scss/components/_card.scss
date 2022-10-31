@@ -32,33 +32,27 @@
 
 .tarjeta--blancos{
   @extend.tarjeta;
-  background-color: $color-blancos;
-  
-  
+  background-color: $color-blancos;  
+ 
+}
 
-  
-}
 .contenedor{
-  display: flex;
-  align-items: center;  
+  @include tarjeta-b(flex,space-around,row wrap,25px);
   justify-content: center;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  margin: 25px;
 }
+
+
 
 .tarjeta-bodegas{
   width: 33%;
   margin-top: 50px;
-  @media (max-width: 600px) {
-  
-      width: 300px;
-    }
-  
-
   background-color: $color-primario;
   border: solid 2px $color-blancos;
   text-align: center;
+
+  @include mobile-lg{
+    width: 300px;
+  }
  
 }
 

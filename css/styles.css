@@ -4,40 +4,6 @@
   box-sizing: border-box;
 }
 
-footer {
-  background-color: rgb(127, 23, 52);
-  margin-top: 150px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-}
-footer .titulo {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-footer ul {
-  list-style-type: none;
-  align-items: flex-end;
-  display: flex;
-  gap: 20px;
-}
-footer ul li {
-  min-width: 50px;
-  text-align: center;
-  padding: 8px;
-}
-footer ul li a {
-  color: white;
-  text-decoration: none;
-}
-footer ul:hover {
-  background-color: black;
-}
-
 .mainTitle {
   margin: 15px;
   text-align: center;
@@ -72,6 +38,69 @@ footer ul:hover {
   display: flex;
   justify-content: center;
   margin: 50px;
+}
+
+.baner {
+  height: 98vh;
+  background-image: url(../assets/baner.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.baner__titulo {
+  color: white;
+  margin-left: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background: black;
+}
+
+footer {
+  background-color: rgb(127, 23, 52);
+  margin-top: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+footer .titulo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer ul {
+  list-style-type: none;
+  align-items: flex-end;
+  display: flex;
+  gap: 20px;
+}
+footer ul li {
+  min-width: 50px;
+  text-align: center;
+  padding: 8px;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer ul:hover {
+  background-color: black;
 }
 
 .tarjeta, .tarjeta--blancos {
@@ -109,11 +138,10 @@ footer ul:hover {
 
 .contenedor {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: s space-around;
   flex-flow: row wrap;
-  justify-content: space-around;
   margin: 25px;
+  justify-content: center;
 }
 
 .tarjeta-bodegas {
@@ -123,7 +151,7 @@ footer ul:hover {
   border: solid 2px rgb(255, 253, 111);
   text-align: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 567px) {
   .tarjeta-bodegas {
     width: 300px;
   }
@@ -181,42 +209,6 @@ h3 {
 }
 .tarjeta__boton:hover {
   background-color: white;
-}
-
-.baner {
-  height: 98vh;
-  background-image: url(../assets/baner.JPG);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.baner__titulo {
-  color: white;
-  margin-left: 30px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 4rem;
-}
-
-body {
-  background: black;
-}
-
-p {
-  color: white;
-}
-
-.contenedor {
-  display: flex;
-  justify-content: s space-around;
-  flex-flow: row wrap;
-  margin: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
