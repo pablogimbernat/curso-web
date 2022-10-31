@@ -13,7 +13,7 @@
 .mainTitle__blancos {
   background: rgb(255, 253, 111);
   background: linear-gradient(90deg, rgb(255, 253, 111) 0%, rgb(217, 240, 94) 50%, rgb(235, 245, 59) 100%);
-  margin: 20px;
+  margin-top: 25px;
   text-align: center;
   margin-bottom: 30px;
   color: black;
@@ -21,7 +21,7 @@
 .mainTitle__espumantes {
   background: rgb(241, 237, 99);
   background: linear-gradient(90deg, rgb(241, 237, 99) 0%, rgb(250, 248, 199) 50%, rgb(241, 237, 99) 100%);
-  margin: 20px;
+  margin-top: 25px;
   text-align: center;
   margin-bottom: 30px;
   color: black;
@@ -29,7 +29,7 @@
 .mainTitle__tintos {
   background: rgb(127, 23, 52);
   background: linear-gradient(90deg, rgb(127, 23, 52) 0%, rgb(244, 54, 107) 50%, rgb(127, 23, 52) 100%);
-  margin: 20px;
+  margin-top: 25px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -41,7 +41,7 @@
 }
 
 .baner {
-  height: 98vh;
+  height: 50vh;
   background-image: url(../assets/baner.JPG);
   background-position: center;
   background-repeat: no-repeat;
@@ -63,6 +63,12 @@ h1 {
 
 p {
   color: white;
+}
+
+.botonmenu {
+  color: rgb(127, 23, 52) !important;
+  border: 0.5px solid rgb(127, 23, 52) !important;
+  border-radius: 8px !important;
 }
 
 body {
@@ -103,6 +109,30 @@ footer ul:hover {
   background-color: black;
 }
 
+.footerorden {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-redes {
+  display: flex;
+  justify-content: space-around;
+  display: grid;
+}
+
+.novedades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .tarjeta, .tarjeta--blancos {
   border: 1px solid black;
   margin-bottom: 30px;
@@ -126,6 +156,7 @@ footer ul:hover {
   justify-content: center;
   text-decoration: none;
   color: black;
+  padding: 9px;
 }
 .tarjeta__boton:hover {
   background-color: white;
@@ -135,17 +166,22 @@ footer ul:hover {
 .tarjeta--blancos {
   background-color: rgb(255, 253, 111);
 }
+.tarjeta--blancos h3 {
+  color: black;
+}
+.tarjeta--blancos p {
+  color: black;
+}
 
 .contenedor {
   display: flex;
-  justify-content: s space-around;
+  justify-content: space-evenly;
   flex-flow: row wrap;
   margin: 25px;
-  justify-content: center;
 }
 
 .tarjeta-bodegas {
-  width: 33%;
+  width: 30%;
   margin-top: 50px;
   background-color: black;
   border: solid 2px rgb(255, 253, 111);

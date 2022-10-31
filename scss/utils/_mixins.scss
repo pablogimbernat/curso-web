@@ -1,7 +1,7 @@
 
 @mixin tarjeta-b($display,$justify,$flex,$margin){
   display: $display;  
-  justify-content: s$justify;
+  justify-content:$justify;
   flex-flow: $flex;
   margin: $margin;
 }

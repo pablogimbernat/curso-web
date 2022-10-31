@@ -22,7 +22,8 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: $color-primario;  
+    color: $color-primario; 
+    padding: 9px; 
   &:hover{
     background-color: $color-secundario;
     color: $color-primario;
@@ -32,19 +33,23 @@
 
 .tarjeta--blancos{
   @extend.tarjeta;
-  background-color: $color-blancos;  
- 
+  background-color: $color-blancos;
+  h3 
+  {color:black;}
+  p{
+    color: black
+  }
+  
 }
 
 .contenedor{
-  @include tarjeta-b(flex,space-around,row wrap,25px);
-  justify-content: center;
+  @include tarjeta-b(flex,space-evenly,row wrap,25px);
+ 
 }
 
 
-
 .tarjeta-bodegas{
-  width: 33%;
+  width: 30%;
   margin-top: 50px;
   background-color: $color-primario;
   border: solid 2px $color-blancos;
